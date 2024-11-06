@@ -90,8 +90,11 @@ const about = {
                 images: [ ]
             },
             {
-                company: 'J-Hutch Consulting',
-              timeframe: 'March 2020 - January 2021',
+                company: (
+                    <span style={{ whiteSpace: 'normal', overflowWrap: 'break-word',fontSize: '0.9em'  }}>
+                    Children’s Hospital of Philadelphia/Temple University Hospital
+                  </span>
+                  ),                timeframe: 'March 2020 - January 2021',
                 role: 'Research Technician',
                 achievements: [
                     <>Worked on developing a lentiviral-based gene therapy method targeting Fanconi Anemia.</>,
