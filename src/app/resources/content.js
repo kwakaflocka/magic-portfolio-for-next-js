@@ -89,21 +89,6 @@ const about = {
                 ],
                 images: [ ]
             },
-            // {
-            //     company: (
-            //         <span style={{ whiteSpace: 'normal', overflowWrap: 'break-word',fontSize: '0.9em'  }}>
-            //         Children’s Hospital of Philadelphia/Temple University Hospital
-            //       </span>
-            //       ),                
-            //     timeframe: 'March 2020 - January 2021',
-            //     role: 'Research Technician',
-            //     achievements: [
-            //         <>Worked on developing a lentiviral-based gene therapy method targeting Fanconi Anemia.</>,
-            //         <>Studied pathologies associated with expression of homocysteine.
-            //         RNA-sequence analysis using R for computational genomics.</>
-            //     ],
-            //     images: [ ]
-            // },
             {
                 company: 'Haverford College',
                 timeframe: 'January 2017-May 2019',
