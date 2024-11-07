@@ -58,57 +58,42 @@ const about = {
         display: true
     },
     calendar: {
-        display: false
+        display: true,
+        link: 'https://cal.com'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Sabrina is a United States-based web developer and data architect experienced in building integrated digital solutions. Her work involves creating custom CMS tools, developing data integration systems, and building user-friendly interfaces for various industries.</>
+        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'Modern Campus',
-                timeframe: 'October 2022 - June 2024',
-                role: 'Web Developer II',
+                company: 'FLY',
+                timeframe: '2022 - Present',
+                role: 'Senior Design Engineer',
                 achievements: [
-                    <>Created custom CMS tools and templates for college campus clients, enhancing their ability to manage web content effectively.</>,
-                    <>Performed large-scale migration of websites with over 15,000 pages from WordPress and Drupal.</>
+                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
+                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
                 ],
-                images: [ ]
+                images: [ // optional: leave the array empty if you don't want to display images
+                    {
+                        src: '/images/projects/project-01/cover-01.jpg',
+                        alt: 'Once UI Project',
+                        width: 16,
+                        height: 9
+                    }
+                ]
             },
             {
-                company: 'J-Hutch Consulting',
-                timeframe: 'December 2021 - Present',
-                role: 'Data Architect Consultant',
+                company: 'Creativ3',
+                timeframe: '2018 - 2022',
+                role: 'Lead Designer',
                 achievements: [
-                    <>Developed a restaurant SMS inventory tracker using Python and SQL, integrated with Toast API and Amazon S3 for automated inventory updates.</>,
-                    <>Created an inventory management system user interface that allows product creation, quantity tracking, and QR code generation for easy updates.</>
-                ],
-                images: [ ]
-            },
-            {
-                company: (
-                    <span style={{ whiteSpace: 'normal', overflowWrap: 'break-word',fontSize: '0.9em'  }}>
-                    Children’s Hospital of Philadelphia/Temple University Hospital
-                  </span>
-                  ),                timeframe: 'March 2020 - January 2021',
-                role: 'Research Technician',
-                achievements: [
-                    <>Worked on developing a lentiviral-based gene therapy method targeting Fanconi Anemia.</>,
-                    <>Studied pathologies associated with expression of homocysteine.
-                    RNA-sequence analysis using R for computational genomics.</>
-                ],
-                images: [ ]
-            },
-            {
-                company: 'Haverford College',
-                timeframe: 'January 2017-May 2019',
-                role: 'Digital Scholar',
-                achievements: [
-                    <>Built webpages to feature class projects as a library service for students at Haverford College</>
+                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
+                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
                 ],
                 images: [ ]
             }
@@ -119,16 +104,12 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'Haverford College',
-                description: <>Bachelor of Science (BS) in Biology and Computer Science, with minors in Health Studies and Global Asian Studies.</>,
+                name: 'University of Jakarta',
+                description: <>Studied software engineering.</>,
             },
             {
-                name: 'Thinkful',
-                description: <>Certificate in Data Science and Python, Graduation 2022.</>,
-            },
-            {
-                name: 'Udemy',
-                description: <>100 Days of Code - The Complete Python Pro Bootcamp, focusing on automation, app and web development, and machine learning.</>,
+                name: 'Build the Future',
+                description: <>Studied online marketing and personal branding.</>,
             }
         ]
     },
@@ -137,14 +118,34 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Web Development',
-                description: <>Proficient in HTML5, CSS, JavaScript, PHP, Python, and Ruby. Skilled in creating dynamic, responsive, and user-centered web applications.</>,
-                images: []
+                title: 'Figma',
+                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-02.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                    {
+                        src: '/images/projects/project-01/cover-03.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
             },
             {
-                title: 'Data Architecture',
-                description: <>Experience with iPaas, AWS, SQL, and Microsoft SQL Server Management Studio. Developed custom database integrations using JSON, XML, and CSV formats.</>,
-                images: []
+                title: 'Next.js',
+                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-04.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
             }
         ]
     }
