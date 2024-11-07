@@ -139,7 +139,7 @@ export default function About(
                 <Flex
                     className={styles.blockAlign}
                     fillWidth flex={9} maxWidth={40} direction="column">
-                    <Flex
+                    {/* <Flex
                         id={about.intro.title}
                         fillWidth minHeight="160"
                         direction="column" justifyContent="center"
@@ -199,7 +199,7 @@ export default function About(
                                 ))}
                             </Flex>
                         )}
-                    </Flex>
+                    </Flex> */}
 
                     { about.intro.display && (
                         <Flex
