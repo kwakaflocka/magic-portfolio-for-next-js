@@ -130,7 +130,7 @@ const about = {
 
 const blog = {
     label: 'Blog',
-    title: 'Writing about design and tech...',
+    title: 'Writing about web development and data architecture...',
     description: `Read what ${person.name} has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -139,7 +139,7 @@ const blog = {
 const work = {
     label: 'Work',
     title: 'My projects',
-    description: `Design and dev projects by ${person.name}`
+    description: `Web development and data architecture projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
 }
@@ -179,47 +179,7 @@ const gallery = {
             src: '/images/gallery/img-06.jpg', 
             alt: 'image',
             orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-07.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-08.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-09.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-10.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-11.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
+        }
     ]
 }
 
