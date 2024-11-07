@@ -89,6 +89,15 @@ const about = {
                     <>Created an inventory management system user interface that allows product creation, quantity tracking, and QR code generation for easy updates.</>
                 ],
                 images: [ ]
+            },
+            {
+                company: 'Haverford College',
+                timeframe: 'January 2017-May 2019',
+                role: 'Digital Scholar',
+                achievements: [
+                    <>Built webpages to feature class projects as a library service for students at Haverford College</>
+                ],
+                images: [ ]
             }
         ]
     },
