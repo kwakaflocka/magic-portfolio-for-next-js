@@ -92,11 +92,7 @@ const about = {
             },
 
             {
-                company: 
-                    <span style={{ whiteSpace: 'normal', overflowWrap: 'break-word',fontSize: '0.9em'  }}>
-                    Children’s Hospital of Philadelphia/Temple University Hospital
-                  </span>
-                  ,                
+                company: 'Children’s Hospital of Philadelphia/Temple University Hospital',                
                   timeframe: 'March 2020 - January 2021',
                 role: 'Research Technician',
                 achievements: [
