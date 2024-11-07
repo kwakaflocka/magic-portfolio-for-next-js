@@ -58,12 +58,13 @@ const about = {
         display: true
     },
     calendar: {
-        display: false
+        display: true,
+        link: 'https://cal.com'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Sabrina is a United States-based web developer and data architect experienced in building integrated digital solutions. Her work involves creating custom CMS tools, developing data integration systems, and building user-friendly interfaces for various industries.</>
+        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
     },
     work: {
         display: true, // set to false to hide this section
