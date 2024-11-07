@@ -71,29 +71,22 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Modern Campus',
+                timeframe: 'October 2022 - June 2024',
+                role: 'Web Developer II',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Created custom CMS tools and templates for college campus clients, enhancing their ability to manage web content effectively.</>,
+                    <>Performed large-scale migration of websites with over 15,000 pages from WordPress and Drupal.</>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
-                ]
+                images: [ ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'J-Hutch Consulting',
+                timeframe: 'December 2021 - Present',
+                role: 'Data Architect Consultant',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed a restaurant SMS inventory tracker using Python and SQL, integrated with Toast API and Amazon S3 for automated inventory updates.</>,
+                    <>Created an inventory management system user interface that allows product creation, quantity tracking, and QR code generation for easy updates.</>
                 ],
                 images: [ ]
             }
