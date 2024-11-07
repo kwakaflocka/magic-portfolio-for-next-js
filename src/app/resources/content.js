@@ -97,12 +97,16 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Haverford College',
+                description: <>Bachelor of Science (BS) in Biology and Computer Science, with minors in Health Studies and Global Asian Studies.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Thinkful',
+                description: <>Certificate in Data Science and Python, Graduation 2022.</>,
+            },
+            {
+                name: 'Udemy',
+                description: <>100 Days of Code - The Complete Python Pro Bootcamp, focusing on automation, app and web development, and machine learning.</>,
             }
         ]
     },
@@ -111,34 +115,14 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Web Development',
+                description: <>Proficient in HTML5, CSS, JavaScript, PHP, Python, and Ruby. Skilled in creating dynamic, responsive, and user-centered web applications.</>,
+                images: []
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Data Architecture',
+                description: <>Experience with iPaas, AWS, SQL, and Microsoft SQL Server Management Studio. Developed custom database integrations using JSON, XML, and CSV formats.</>,
+                images: []
             }
         ]
     }
