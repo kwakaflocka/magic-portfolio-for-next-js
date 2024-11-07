@@ -58,7 +58,7 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
+        display: false,
         link: 'https://cal.com'
     },
     intro: {
@@ -90,6 +90,7 @@ const about = {
                 ],
                 images: [ ]
             },
+
             {
                 company: 'Haverford College',
                 timeframe: 'January 2017-May 2019',
