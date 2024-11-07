@@ -77,7 +77,7 @@ const TableOfContents: React.FC<TableOfContentsProps> = ({ structure, about }) =
                                         height="1" width="8"
                                         background="neutral-strong">
                                     </Flex>
-                                    <Text>
+                                    <Text style={{ whiteSpace: 'normal', overflowWrap: 'break-word',fontSize: '0.9em'  }}>
                                         {item}
                                     </Text>
                                 </Flex>
