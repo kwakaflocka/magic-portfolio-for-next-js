@@ -58,8 +58,7 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
-        link: 'https://cal.com'
+        display: false
     },
     intro: {
         display: true,
