@@ -58,7 +58,7 @@ const about = {
         display: true
     },
     calendar: {
-        display: false,
+        display: true,
         link: 'https://cal.com'
     },
     intro: {
@@ -87,20 +87,6 @@ const about = {
                 achievements: [
                     <>Developed a restaurant SMS inventory tracker using Python and SQL, integrated with Toast API and Amazon S3 for automated inventory updates.</>,
                     <>Created an inventory management system user interface that allows product creation, quantity tracking, and QR code generation for easy updates.</>
-                ],
-                images: [ ]
-            },
-            {
-                company: (
-                    <span style={{ whiteSpace: 'normal', overflowWrap: 'break-word',fontSize: '0.9em'  }}>
-                    Children’s Hospital of Philadelphia/Temple University Hospital
-                  </span>
-                  ),                timeframe: 'March 2020 - January 2021',
-                role: 'Research Technician',
-                achievements: [
-                    <>Worked on developing a lentiviral-based gene therapy method targeting Fanconi Anemia.</>,
-                    <>Studied pathologies associated with expression of homocysteine.
-                    RNA-sequence analysis using R for computational genomics.</>
                 ],
                 images: [ ]
             },
