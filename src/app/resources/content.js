@@ -1,19 +1,19 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Sabrina',
+    lastName:  'Kwak',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Software Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'America/Phoenix',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: []  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
-    display: true,
+    display: false,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
     description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
 }
@@ -24,22 +24,17 @@ const social = [
     {
         name: 'GitHub',
         icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        link: 'https://github.com/kwakaflocka',
     },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
-    },
-    {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        link: 'https://www.linkedin.com/in/sabrina-kwak-6302b01ba/',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:skwa@sas.upenn.edu',
     },
 ]
 
@@ -47,8 +42,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Web Developer and Data Architect</>,
+    subline: <>I'm Sabrina, a web developer and data architect passionate about building scalable and integrated digital solutions. With a background in biomedical research and technology integration, I bridge creativity and technical expertise to create impactful experiences.</>
 }
 
 const about = {
@@ -63,42 +58,56 @@ const about = {
         display: true
     },
     calendar: {
-        display: true,
+        display: false,
         link: 'https://cal.com'
     },
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Sabrina is a United States-based web developer and data architect experienced in building integrated digital solutions. Her work involves creating custom CMS tools, developing data integration systems, and building user-friendly interfaces for various industries.</>
     },
     work: {
         display: true, // set to false to hide this section
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Modern Campus',
+                timeframe: 'October 2022 - June 2024',
+                role: 'Web Developer II',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>Created custom CMS tools and templates for college campus clients, enhancing their ability to manage web content effectively.</>,
+                    <>Performed large-scale migration of websites with over 15,000 pages from WordPress and Drupal.</>
                 ],
-                images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
-                ]
+                images: [ ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'J-Hutch Consulting',
+                timeframe: 'December 2021 - Present',
+                role: 'Data Architect Consultant',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>Developed a restaurant SMS inventory tracker using Python and SQL, integrated with Toast API and Amazon S3 for automated inventory updates.</>,
+                    <>Created an inventory management system user interface that allows product creation, quantity tracking, and QR code generation for easy updates.</>
+                ],
+                images: [ ]
+            },
+
+            {
+                company: 'Children’s Hospital of Philadelphia/Temple University Hospital',                
+                  timeframe: 'March 2020 - January 2021',
+                role: 'Research Technician',
+                achievements: [
+                    <>Worked on developing a lentiviral-based gene therapy method targeting Fanconi Anemia.</>,
+                    <>Studied pathologies associated with expression of homocysteine.
+                    RNA-sequence analysis using R for computational genomics.</>
+                ],
+                images: [ ]
+            },
+            {
+                company: 'Haverford College',
+                timeframe: 'January 2017-May 2019',
+                role: 'Digital Scholar',
+                achievements: [
+                    <>Built webpages to feature class projects as a library service for students at Haverford College</>
                 ],
                 images: [ ]
             }
@@ -109,12 +118,16 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'Haverford College',
+                description: <>Bachelor of Science (BS) in Biology and Computer Science, with minors in Health Studies and Global Asian Studies.</>,
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'Thinkful',
+                description: <>Certificate in Data Science and Python, Graduation 2022.</>,
+            },
+            {
+                name: 'Udemy',
+                description: <>100 Days of Code - The Complete Python Pro Bootcamp, focusing on automation, app and web development, and machine learning.</>,
             }
         ]
     },
@@ -123,34 +136,14 @@ const about = {
         title: 'Technical skills',
         skills: [
             {
-                title: 'Figma',
-                description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-02.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                    {
-                        src: '/images/projects/project-01/cover-03.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Web Development',
+                description: <>Proficient in HTML5, CSS, JavaScript, PHP, Python, and Ruby. Skilled in creating dynamic, responsive, and user-centered web applications.</>,
+                images: []
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-                images: [
-                    {
-                        src: '/images/projects/project-01/cover-04.jpg',
-                        alt: 'Project image',
-                        width: 16,
-                        height: 9
-                    },
-                ]
+                title: 'Data Architecture',
+                description: <>Experience with iPaas, AWS, SQL, and Microsoft SQL Server Management Studio. Developed custom database integrations using JSON, XML, and CSV formats.</>,
+                images: []
             }
         ]
     }
@@ -158,7 +151,7 @@ const about = {
 
 const blog = {
     label: 'Blog',
-    title: 'Writing about design and tech...',
+    title: 'Writing about web development and data architecture...',
     description: `Read what ${person.name} has been up to recently`
     // Create new blog posts by adding a new .mdx file to app/blog/posts
     // All posts will be listed on the /blog route
@@ -167,7 +160,7 @@ const blog = {
 const work = {
     label: 'Work',
     title: 'My projects',
-    description: `Design and dev projects by ${person.name}`
+    description: `Web development and data architecture projects by ${person.name}`
     // Create new project pages by adding a new .mdx file to app/blog/posts
     // All projects will be listed on the /home and /work routes
 }
@@ -207,47 +200,7 @@ const gallery = {
             src: '/images/gallery/img-06.jpg', 
             alt: 'image',
             orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-07.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-08.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-09.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-10.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-11.jpg', 
-            alt: 'image',
-            orientation: 'vertical'
-        },
-        { 
-            src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
+        }
     ]
 }
 
